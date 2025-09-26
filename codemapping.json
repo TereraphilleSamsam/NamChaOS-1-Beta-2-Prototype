@@ -1,0 +1,1046 @@
+{
+    "file": "index.html",
+    "line_range_considered": "2000-8000",
+    "functions": [
+        {
+            "name": "constructor",
+            "line_number": 2020,
+            "type": "function"
+        },
+        {
+            "name": "detectDevice",
+            "line_number": 2070,
+            "type": "function"
+        },
+        {
+            "name": "init",
+            "line_number": 2087,
+            "type": "function"
+        },
+        {
+            "name": "initializeProcesses",
+            "line_number": 2111,
+            "type": "function"
+        },
+        {
+            "name": "startResourceMonitoring",
+            "line_number": 2201,
+            "type": "function"
+        },
+        {
+            "name": "updateSystemResources",
+            "line_number": 2223,
+            "type": "function"
+        },
+        {
+            "name": "updateProcessList",
+            "line_number": 2258,
+            "type": "function"
+        },
+        {
+            "name": "updateTaskManagerDisplay",
+            "line_number": 2295,
+            "type": "function"
+        },
+        {
+            "name": "updateProcessListDisplay",
+            "line_number": 2357,
+            "type": "function"
+        },
+        {
+            "name": "updateDriveUsage",
+            "line_number": 2405,
+            "type": "function"
+        },
+        {
+            "name": "calculateFolderSize",
+            "line_number": 2411,
+            "type": "function"
+        },
+        {
+            "name": "endProcess",
+            "line_number": 2439,
+            "type": "function"
+        },
+        {
+            "name": "updateAllowedMemory",
+            "line_number": 2462,
+            "type": "function"
+        },
+        {
+            "name": "updateAllAppsResourceInfo",
+            "line_number": 2499,
+            "type": "function"
+        },
+        {
+            "name": "endProcess",
+            "line_number": 2516,
+            "type": "function"
+        },
+        {
+            "name": "initBootTime",
+            "line_number": 2546,
+            "type": "function"
+        },
+        {
+            "name": "initFileSystem",
+            "line_number": 2553,
+            "type": "function"
+        },
+        {
+            "name": "loadInstalledApps",
+            "line_number": 2721,
+            "type": "function"
+        },
+        {
+            "name": "saveInstalledApps",
+            "line_number": 2727,
+            "type": "function"
+        },
+        {
+            "name": "loadDownloads",
+            "line_number": 2732,
+            "type": "function"
+        },
+        {
+            "name": "saveDownloads",
+            "line_number": 2738,
+            "type": "function"
+        },
+        {
+            "name": "loadContacts",
+            "line_number": 2743,
+            "type": "function"
+        },
+        {
+            "name": "saveContacts",
+            "line_number": 2749,
+            "type": "function"
+        },
+        {
+            "name": "loadCustomSettings",
+            "line_number": 2754,
+            "type": "function"
+        },
+        {
+            "name": "saveCustomSettings",
+            "line_number": 2760,
+            "type": "function"
+        },
+        {
+            "name": "loadAppPositions",
+            "line_number": 2765,
+            "type": "function"
+        },
+        {
+            "name": "saveAppPositions",
+            "line_number": 2771,
+            "type": "function"
+        },
+        {
+            "name": "saveFileSystem",
+            "line_number": 2776,
+            "type": "function"
+        },
+        {
+            "name": "applyCustomSettings",
+            "line_number": 2781,
+            "type": "function"
+        },
+        {
+            "name": "checkForUpdates",
+            "line_number": 2791,
+            "type": "function"
+        },
+        {
+            "name": "setupEventListeners",
+            "line_number": 2801,
+            "type": "function"
+        },
+        {
+            "name": "updateClock",
+            "line_number": 2948,
+            "type": "function"
+        },
+        {
+            "name": "updateDeviceInfo",
+            "line_number": 2961,
+            "type": "function"
+        },
+        {
+            "name": "showInstallation",
+            "line_number": 2969,
+            "type": "function"
+        },
+        {
+            "name": "startInstallation",
+            "line_number": 2976,
+            "type": "function"
+        },
+        {
+            "name": "showDesktop",
+            "line_number": 3017,
+            "type": "function"
+        },
+        {
+            "name": "openApp",
+            "line_number": 3025,
+            "type": "function"
+        },
+        {
+            "name": "createWindow",
+            "line_number": 3051,
+            "type": "function"
+        },
+        {
+            "name": "addControlEvents",
+            "line_number": 3088,
+            "type": "function"
+        },
+        {
+            "name": "handler",
+            "line_number": 3089,
+            "type": "function"
+        },
+        {
+            "name": "getAppTitle",
+            "line_number": 3129,
+            "type": "function"
+        },
+        {
+            "name": "getAppContent",
+            "line_number": 3155,
+            "type": "function"
+        },
+        {
+            "name": "initializeApp",
+            "line_number": 3623,
+            "type": "function"
+        },
+        {
+            "name": "initializeTaskManagerApp",
+            "line_number": 3685,
+            "type": "function"
+        },
+        {
+            "name": "killAllNonCriticalProcesses",
+            "line_number": 3728,
+            "type": "function"
+        },
+        {
+            "name": "initializeFilesApp",
+            "line_number": 3751,
+            "type": "function"
+        },
+        {
+            "name": "initializeSettingsApp",
+            "line_number": 3774,
+            "type": "function"
+        },
+        {
+            "name": "renderFileExplorer",
+            "line_number": 3780,
+            "type": "function"
+        },
+        {
+            "name": "getFileIcon",
+            "line_number": 3849,
+            "type": "function"
+        },
+        {
+            "name": "getDriveIcon",
+            "line_number": 3862,
+            "type": "function"
+        },
+        {
+            "name": "getDriveInfo",
+            "line_number": 3868,
+            "type": "function"
+        },
+        {
+            "name": "getDirectoryContents",
+            "line_number": 3893,
+            "type": "function"
+        },
+        {
+            "name": "handleFileAction",
+            "line_number": 3913,
+            "type": "function"
+        },
+        {
+            "name": "navigateBack",
+            "line_number": 3928,
+            "type": "function"
+        },
+        {
+            "name": "navigateToFolder",
+            "line_number": 3939,
+            "type": "function"
+        },
+        {
+            "name": "createNewFolder",
+            "line_number": 3950,
+            "type": "function"
+        },
+        {
+            "name": "deleteSelectedFiles",
+            "line_number": 3970,
+            "type": "function"
+        },
+        {
+            "name": "openFile",
+            "line_number": 3986,
+            "type": "function"
+        },
+        {
+            "name": "getFileContent",
+            "line_number": 4039,
+            "type": "function"
+        },
+        {
+            "name": "saveFileContent",
+            "line_number": 4048,
+            "type": "function"
+        },
+        {
+            "name": "showNotification",
+            "line_number": 4062,
+            "type": "function"
+        },
+        {
+            "name": "initializeNotesApp",
+            "line_number": 4091,
+            "type": "function"
+        },
+        {
+            "name": "newNote",
+            "line_number": 4120,
+            "type": "function"
+        },
+        {
+            "name": "saveNote",
+            "line_number": 4127,
+            "type": "function"
+        },
+        {
+            "name": "openNoteDialog",
+            "line_number": 4151,
+            "type": "function"
+        },
+        {
+            "name": "initializeCalculatorApp",
+            "line_number": 4180,
+            "type": "function"
+        },
+        {
+            "name": "handleCalculatorInput",
+            "line_number": 4195,
+            "type": "function"
+        },
+        {
+            "name": "inputCalculatorDigit",
+            "line_number": 4215,
+            "type": "function"
+        },
+        {
+            "name": "handleCalculatorOperator",
+            "line_number": 4225,
+            "type": "function"
+        },
+        {
+            "name": "calculateResult",
+            "line_number": 4243,
+            "type": "function"
+        },
+        {
+            "name": "performCalculation",
+            "line_number": 4256,
+            "type": "function"
+        },
+        {
+            "name": "initializeBrowserApp",
+            "line_number": 4275,
+            "type": "function"
+        },
+        {
+            "name": "browserNavigate",
+            "line_number": 4298,
+            "type": "function"
+        },
+        {
+            "name": "browserBack",
+            "line_number": 4320,
+            "type": "function"
+        },
+        {
+            "name": "browserForward",
+            "line_number": 4330,
+            "type": "function"
+        },
+        {
+            "name": "initializeTaskManagerApp",
+            "line_number": 4340,
+            "type": "function"
+        },
+        {
+            "name": "updateTaskManagerDisplay",
+            "line_number": 4372,
+            "type": "function"
+        },
+        {
+            "name": "killProcess",
+            "line_number": 4420,
+            "type": "function"
+        },
+        {
+            "name": "updateSystemResources",
+            "line_number": 4446,
+            "type": "function"
+        },
+        {
+            "name": "getBaseMemoryUsage",
+            "line_number": 4480,
+            "type": "function"
+        },
+        {
+            "name": "addProcess",
+            "line_number": 4488,
+            "type": "function"
+        },
+        {
+            "name": "initializeCameraApp",
+            "line_number": 4525,
+            "type": "function"
+        },
+        {
+            "name": "startCamera",
+            "line_number": 4546,
+            "type": "function"
+        },
+        {
+            "name": "capturePhoto",
+            "line_number": 4556,
+            "type": "function"
+        },
+        {
+            "name": "savePhotoToFileSystem",
+            "line_number": 4584,
+            "type": "function"
+        },
+        {
+            "name": "refreshPhotosApp",
+            "line_number": 4607,
+            "type": "function"
+        },
+        {
+            "name": "addPhotoToGallery",
+            "line_number": 4618,
+            "type": "function"
+        },
+        {
+            "name": "loadPhotoGallery",
+            "line_number": 4637,
+            "type": "function"
+        },
+        {
+            "name": "openPhotoViewer",
+            "line_number": 4664,
+            "type": "function"
+        },
+        {
+            "name": "downloadPhoto",
+            "line_number": 4702,
+            "type": "function"
+        },
+        {
+            "name": "initializeAppStoreApp",
+            "line_number": 4710,
+            "type": "function"
+        },
+        {
+            "name": "renderAppStore",
+            "line_number": 4715,
+            "type": "function"
+        },
+        {
+            "name": "installApp",
+            "line_number": 4753,
+            "type": "function"
+        },
+        {
+            "name": "getAppNameById",
+            "line_number": 4779,
+            "type": "function"
+        },
+        {
+            "name": "addAppToDesktop",
+            "line_number": 4791,
+            "type": "function"
+        },
+        {
+            "name": "initializeDownloaderApp",
+            "line_number": 4816,
+            "type": "function"
+        },
+        {
+            "name": "renderDownloadManager",
+            "line_number": 4843,
+            "type": "function"
+        },
+        {
+            "name": "startDownload",
+            "line_number": 4882,
+            "type": "function"
+        },
+        {
+            "name": "quickDownload",
+            "line_number": 4905,
+            "type": "function"
+        },
+        {
+            "name": "extractFileName",
+            "line_number": 4931,
+            "type": "function"
+        },
+        {
+            "name": "createDownloadItemHTML",
+            "line_number": 4943,
+            "type": "function"
+        },
+        {
+            "name": "simulateDownload",
+            "line_number": 4964,
+            "type": "function"
+        },
+        {
+            "name": "saveDownloadedFile",
+            "line_number": 4986,
+            "type": "function"
+        },
+        {
+            "name": "initializeTerminalApp",
+            "line_number": 5004,
+            "type": "function"
+        },
+        {
+            "name": "executeTerminalCommand",
+            "line_number": 5022,
+            "type": "function"
+        },
+        {
+            "name": "initializePaintApp",
+            "line_number": 5379,
+            "type": "function"
+        },
+        {
+            "name": "selectTool",
+            "line_number": 5404,
+            "type": "function"
+        },
+        {
+            "name": "getCoords",
+            "line_number": 5435,
+            "type": "function"
+        },
+        {
+            "name": "startDrawing",
+            "line_number": 5446,
+            "type": "function"
+        },
+        {
+            "name": "draw",
+            "line_number": 5462,
+            "type": "function"
+        },
+        {
+            "name": "stopDrawing",
+            "line_number": 5518,
+            "type": "function"
+        },
+        {
+            "name": "initializeClockApp",
+            "line_number": 5564,
+            "type": "function"
+        },
+        {
+            "name": "updateClockUI",
+            "line_number": 5571,
+            "type": "function"
+        },
+        {
+            "name": "startStopwatch",
+            "line_number": 5583,
+            "type": "function"
+        },
+        {
+            "name": "stopStopwatch",
+            "line_number": 5593,
+            "type": "function"
+        },
+        {
+            "name": "resetStopwatch",
+            "line_number": 5594,
+            "type": "function"
+        },
+        {
+            "name": "initializeContactsApp",
+            "line_number": 5610,
+            "type": "function"
+        },
+        {
+            "name": "renderContacts",
+            "line_number": 5614,
+            "type": "function"
+        },
+        {
+            "name": "initializeVoiceRecorderApp",
+            "line_number": 5676,
+            "type": "function"
+        },
+        {
+            "name": "handleStopRecord",
+            "line_number": 5745,
+            "type": "function"
+        },
+        {
+            "name": "handlePlayRecord",
+            "line_number": 5757,
+            "type": "function"
+        },
+        {
+            "name": "saveRecording",
+            "line_number": 5771,
+            "type": "function"
+        },
+        {
+            "name": "saveRecordingToFileSystem",
+            "line_number": 5805,
+            "type": "function"
+        },
+        {
+            "name": "loadRecordings",
+            "line_number": 5822,
+            "type": "function"
+        },
+        {
+            "name": "saveRecordings",
+            "line_number": 5828,
+            "type": "function"
+        },
+        {
+            "name": "renderRecordingsList",
+            "line_number": 5833,
+            "type": "function"
+        },
+        {
+            "name": "playRecordingById",
+            "line_number": 5869,
+            "type": "function"
+        },
+        {
+            "name": "playAudioBlob",
+            "line_number": 5884,
+            "type": "function"
+        },
+        {
+            "name": "enableAudio",
+            "line_number": 5924,
+            "type": "function"
+        },
+        {
+            "name": "initializeMusicApp",
+            "line_number": 5952,
+            "type": "function"
+        },
+        {
+            "name": "importMusicFile",
+            "line_number": 6045,
+            "type": "function"
+        },
+        {
+            "name": "loadMusicLibrary",
+            "line_number": 6078,
+            "type": "function"
+        },
+        {
+            "name": "saveMusicLibrary",
+            "line_number": 6089,
+            "type": "function"
+        },
+        {
+            "name": "renderMusicLibrary",
+            "line_number": 6104,
+            "type": "function"
+        },
+        {
+            "name": "playSong",
+            "line_number": 6147,
+            "type": "function"
+        },
+        {
+            "name": "togglePlayPause",
+            "line_number": 6199,
+            "type": "function"
+        },
+        {
+            "name": "playNextSong",
+            "line_number": 6220,
+            "type": "function"
+        },
+        {
+            "name": "playPreviousSong",
+            "line_number": 6231,
+            "type": "function"
+        },
+        {
+            "name": "updatePlayerProgress",
+            "line_number": 6242,
+            "type": "function"
+        },
+        {
+            "name": "deleteSong",
+            "line_number": 6267,
+            "type": "function"
+        },
+        {
+            "name": "downloadRecording",
+            "line_number": 6294,
+            "type": "function"
+        },
+        {
+            "name": "initializePhotosApp",
+            "line_number": 6308,
+            "type": "function"
+        },
+        {
+            "name": "loadPhotosGallery",
+            "line_number": 6314,
+            "type": "function"
+        },
+        {
+            "name": "openPhotoViewer",
+            "line_number": 6383,
+            "type": "function"
+        },
+        {
+            "name": "deletePhoto",
+            "line_number": 6450,
+            "type": "function"
+        },
+        {
+            "name": "initializeMapsApp",
+            "line_number": 6484,
+            "type": "function"
+        },
+        {
+            "name": "makeDraggable",
+            "line_number": 6513,
+            "type": "function"
+        },
+        {
+            "name": "getAppIcon",
+            "line_number": 6549,
+            "type": "function"
+        },
+        {
+            "name": "closeWindow",
+            "line_number": 6575,
+            "type": "function"
+        },
+        {
+            "name": "minimizeWindow",
+            "line_number": 6598,
+            "type": "function"
+        },
+        {
+            "name": "toggleFullscreen",
+            "line_number": 6606,
+            "type": "function"
+        },
+        {
+            "name": "toggleStartMenu",
+            "line_number": 6611,
+            "type": "function"
+        },
+        {
+            "name": "hideStartMenu",
+            "line_number": 6617,
+            "type": "function"
+        },
+        {
+            "name": "setupSwipeGestures",
+            "line_number": 6623,
+            "type": "function"
+        },
+        {
+            "name": "showControlCenter",
+            "line_number": 6654,
+            "type": "function"
+        },
+        {
+            "name": "hideControlCenter",
+            "line_number": 6661,
+            "type": "function"
+        },
+        {
+            "name": "setupAppDragging",
+            "line_number": 6667,
+            "type": "function"
+        },
+        {
+            "name": "startDragApp",
+            "line_number": 6692,
+            "type": "function"
+        },
+        {
+            "name": "setupEditMode",
+            "line_number": 6715,
+            "type": "function"
+        },
+        {
+            "name": "dropApp",
+            "line_number": 6726,
+            "type": "function"
+        },
+        {
+            "name": "handlePowerAction",
+            "line_number": 6765,
+            "type": "function"
+        },
+        {
+            "name": "showRestartScreen",
+            "line_number": 6778,
+            "type": "function"
+        },
+        {
+            "name": "showShutdownScreen",
+            "line_number": 6789,
+            "type": "function"
+        },
+        {
+            "name": "bootHandler",
+            "line_number": 6795,
+            "type": "function"
+        },
+        {
+            "name": "showBootScreen",
+            "line_number": 6808,
+            "type": "function"
+        },
+        {
+            "name": "toggleWiFi",
+            "line_number": 6834,
+            "type": "function"
+        },
+        {
+            "name": "toggleBluetooth",
+            "line_number": 6843,
+            "type": "function"
+        },
+        {
+            "name": "toggleAirplaneMode",
+            "line_number": 6852,
+            "type": "function"
+        },
+        {
+            "name": "toggleDarkMode",
+            "line_number": 6860,
+            "type": "function"
+        },
+        {
+            "name": "adjustBrightness",
+            "line_number": 6869,
+            "type": "function"
+        },
+        {
+            "name": "adjustVolume",
+            "line_number": 6876,
+            "type": "function"
+        },
+        {
+            "name": "toggleHotspot",
+            "line_number": 6882,
+            "type": "function"
+        },
+        {
+            "name": "toggleAutoRotate",
+            "line_number": 6890,
+            "type": "function"
+        },
+        {
+            "name": "toggleDoNotDisturb",
+            "line_number": 6898,
+            "type": "function"
+        },
+        {
+            "name": "toggleFlashlight",
+            "line_number": 6907,
+            "type": "function"
+        },
+        {
+            "name": "changeUsername",
+            "line_number": 6916,
+            "type": "function"
+        },
+        {
+            "name": "changeBackground",
+            "line_number": 6930,
+            "type": "function"
+        },
+        {
+            "name": "applyBackground",
+            "line_number": 6940,
+            "type": "function"
+        },
+        {
+            "name": "updateBlurIntensity",
+            "line_number": 6958,
+            "type": "function"
+        },
+        {
+            "name": "updateGlassOpacity",
+            "line_number": 6964,
+            "type": "function"
+        },
+        {
+            "name": "updateAllowedMemory",
+            "line_number": 6971,
+            "type": "function"
+        },
+        {
+            "name": "freeMemoryToLimit",
+            "line_number": 7001,
+            "type": "function"
+        },
+        {
+            "name": "openTaskManagerFromSettings",
+            "line_number": 7027,
+            "type": "function"
+        },
+        {
+            "name": "triggerUpdate",
+            "line_number": 7032,
+            "type": "function"
+        },
+        {
+            "name": "dismissUpdate",
+            "line_number": 7037,
+            "type": "function"
+        },
+        {
+            "name": "installUpdate",
+            "line_number": 7042,
+            "type": "function"
+        },
+        {
+            "name": "resetSystem",
+            "line_number": 7048,
+            "type": "function"
+        },
+        {
+            "name": "initializeLockScreen",
+            "line_number": 7056,
+            "type": "function"
+        },
+        {
+            "name": "attemptUnlock",
+            "line_number": 7074,
+            "type": "function"
+        },
+        {
+            "name": "initializeNotificationCenter",
+            "line_number": 7107,
+            "type": "function"
+        },
+        {
+            "name": "showLockScreen",
+            "line_number": 7133,
+            "type": "function"
+        },
+        {
+            "name": "hideLockScreen",
+            "line_number": 7143,
+            "type": "function"
+        },
+        {
+            "name": "updateLockScreenTime",
+            "line_number": 7155,
+            "type": "function"
+        },
+        {
+            "name": "toggleLockScreen",
+            "line_number": 7167,
+            "type": "function"
+        },
+        {
+            "name": "changePassword",
+            "line_number": 7179,
+            "type": "function"
+        },
+        {
+            "name": "lockNow",
+            "line_number": 7190,
+            "type": "function"
+        },
+        {
+            "name": "toggleNotificationCenter",
+            "line_number": 7199,
+            "type": "function"
+        },
+        {
+            "name": "hideNotificationCenter",
+            "line_number": 7207,
+            "type": "function"
+        },
+        {
+            "name": "addNotification",
+            "line_number": 7215,
+            "type": "function"
+        },
+        {
+            "name": "updateNotificationCenter",
+            "line_number": 7237,
+            "type": "function"
+        },
+        {
+            "name": "showNotificationToast",
+            "line_number": 7261,
+            "type": "function"
+        },
+        {
+            "name": "updateNotificationBadge",
+            "line_number": 7282,
+            "type": "function"
+        },
+        {
+            "name": "clearAllNotifications",
+            "line_number": 7295,
+            "type": "function"
+        },
+        {
+            "name": "launchNcApp",
+            "line_number": 7302,
+            "type": "function"
+        },
+        {
+            "name": "getAppTitle",
+            "line_number": 7383,
+            "type": "function"
+        },
+        {
+            "name": "initializeNamInterpreterApp",
+            "line_number": 7409,
+            "type": "function"
+        },
+        {
+            "name": "executeNamCommand",
+            "line_number": 7552,
+            "type": "function"
+        },
+        {
+            "name": "parseNamCode",
+            "line_number": 7593,
+            "type": "function"
+        }
+    ]
+}
